@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """ Prime-Game task 0. Prime Game
-
 """
 
 
