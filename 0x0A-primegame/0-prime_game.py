@@ -10,7 +10,6 @@ def findPrimesToN(n):
     if (type(n) is not int or n < 0):
         return None
 
-    # logically primes should be a set, but we want it to remain ordered
     primes = []
     for candidate in range(2, n + 1):
         prime = True
