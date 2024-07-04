@@ -1,15 +1,16 @@
 #!/usr/bin/python3
 """
-Interview Question on: fewest number of coins needed to
+fewest number of coins needed to
 meet a given amount total
 """
 
 
 def makeChange(coins, total):
-    """ fewest number of coins needed to meet total """
+    """ lowest numberof coins needed to meet total 
+    ...sort the coins in descending order"""
     if total <= 0:
         return 0
-    # sort the coins in descending order
+    
     coins.sort(reverse=True)
     change = 0
     for coin in coins:
