@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-""" Prime-Game task 0. Prime Game
+""" Prime--Game task 0Prime Game
 """
 
 
 def findPrimesToN(n):
-    """Returns list of primes up toparameter value n, in ascending order
+    """
+    Returns list of primesup toparameter value n, in ascending-order
     """
 
     if (type(n) is not int or n < 0):
@@ -24,7 +25,7 @@ def findPrimesToN(n):
 
 def isWinner(x, nums):
     """
-    stimulatesss game
+    stimulgame
     """
     if (type(nums) is not list or not all([type(n) is int for n in nums]) or
             not all([n > -1 for n in nums])):
