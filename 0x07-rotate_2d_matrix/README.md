@@ -1,1 +1,1 @@
-# Solutions to tasks on 0x07. Rotate 2D Matrix
+# solutions to taskson 0x07.Rotate 2DMatrix
