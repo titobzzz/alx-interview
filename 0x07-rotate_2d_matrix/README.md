@@ -1,1 +1,1 @@
-# solutions to taskson 0x07.Rotate 2DMatrix
+# s0x07.Rotate 2DMatrix solutions to taskson Roate matrix
