@@ -90,7 +90,7 @@ def build_solution(row, group):
             if not any(used_positions):
                 build_solution(row + 1, group)
             group.pop(len(group) - 1)
-
+            
 
 def get_solutions():
     """the solutionsfor the given chessboard size.
