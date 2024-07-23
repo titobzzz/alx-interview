@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""_summary_
+"""_yoursunmmary
+    Args: matrix: _randomdescription_
 """
 
 
@@ -21,10 +22,8 @@ def reverse_matrix(matrix):
 
 
 def rotate_2d_matrix(matrix):
-    """_summary_
-
-    Args:
-                    matrix (_type_): _description_
+    """_yoursunmmary
+    Args: matrix: _randomdescription_
     """
     n = len(matrix)
     # print(n)
