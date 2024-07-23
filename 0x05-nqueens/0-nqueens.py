@@ -47,3 +47,4 @@ def solve_nqueens(n):
 if __name__ == "__main__":
     n = get_input()
     solve_nqueens(n)
+    
