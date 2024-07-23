@@ -21,6 +21,7 @@ def get_input():
     """
     global n
     n = 0
+
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
         sys.exit(1)
@@ -36,7 +37,7 @@ def get_input():
 
 
 def is_attacking(pos0, pos1):
-    """Checks if the positions of two queens are in an attacking mode.
+    """Checksif the positions of twoqueens are in attacking mode.
 
     Args:
         pos0 (list or tuple): The first queen's position.
@@ -90,7 +91,7 @@ def build_solution(row, group):
             if not any(used_positions):
                 build_solution(row + 1, group)
             group.pop(len(group) - 1)
-            
+
 
 def get_solutions():
     """the solutionsfor the given chessboard size.
