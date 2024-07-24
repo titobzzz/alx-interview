@@ -6,10 +6,12 @@ to meet a given amount total
 
 
 def makeChange(coins, total):
-    """ fewest numberof coinsneeded to meettotal """
+    """ fewest numberof coinsneeded to meettotal 
+    """
+    
     if total <= 0:
         return 0
-    # sort the coins in descending order
+ 
     coins.sort(reverse=True)
     change = 0
     for coin in coins:
