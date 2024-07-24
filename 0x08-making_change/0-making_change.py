@@ -4,11 +4,10 @@ question on fewest number of coins
 to meet a given amount total
 """
 
-
 def makeChange(coins, total):
     """ fewest numberof coinsneeded to meettotal 
     """
-    
+
     if total <= 0:
         return 0
  
