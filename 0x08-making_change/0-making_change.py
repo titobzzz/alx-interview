@@ -5,7 +5,8 @@ to meet a given amount total
 """
 
 def makeChange(coins, total):
-    """ fewest numberof coinsneeded to meettotal 
+    """ fewest numberof coinsneeded to 
+    meettotal 
     """
 
     if total <= 0:
