@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 """ 0x0A. Prime Game task 0. Prime Game
-
 """
 
 
 def findPrimesToN(n):
-    """Returns list of primes up to parameter value n, in ascending order.
+    """Returns list of primes up to parameter value n, in ascending order
 
     Args:
         n (int): upper bound on list of primes returned
@@ -13,13 +12,12 @@ def findPrimesToN(n):
     Return:
         primes (list) of (int): list of primes to n, or
         (None): on failure
-
     """
 
     if (type(n) is not int or n < 0):
         return None
 
-    # logically primes should be a set, but we want it to remain ordered
+    # logically primesshould be a setbut we want it to remain ordered
     primes = []
     for candidate in range(2, n + 1):
         prime = True
